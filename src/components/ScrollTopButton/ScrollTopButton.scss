@@ -1,0 +1,17 @@
+.scrl-top-button {
+  flex: 1;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+  cursor: pointer;
+  background-color: #0146e7;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  color: #fff;
+}

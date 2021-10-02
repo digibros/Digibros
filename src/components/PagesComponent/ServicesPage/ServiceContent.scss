@@ -1,0 +1,136 @@
+.services-hero {
+  font-family: "Roboto", sans-serif;
+  color: #0f1d3d;
+
+  .heading {
+    padding: 5rem 5rem 3rem;
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .content {
+    background-color: #fff;
+    padding: 5rem 8rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin: 0 5rem;
+    text-align: left;
+    h1 {
+      padding: 5rem 0 2rem;
+      font-size: 2.5rem;
+      text-transform: capitalize;
+    }
+    h2 {
+      padding-bottom: 1.5rem;
+      font-size: 1.7rem;
+      text-transform: capitalize;
+    }
+    h3 {
+      font-size: 1.4rem;
+      font-weight: 500;
+      font-style: italic;
+      text-transform: capitalize;
+      color: #2b4e9ee0;
+    }
+
+    p {
+      font-family: "Roboto", sans-serif;
+      line-height: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+
+    .grid-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .btn {
+      margin-top: 2rem;
+      background-color: #0146e7;
+      padding: 0.9rem 2.5rem;
+      text-transform: none;
+      font-family: "Inter", sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 30px;
+
+      span {
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 968px) {
+  .services-hero {
+    font-family: "Roboto", sans-serif;
+    color: #0f1d3d;
+
+    .heading {
+      padding: 5rem 5rem 3rem;
+      font-family: "Inter", sans-serif;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    .content {
+      background-color: #fff;
+      padding: 5rem 2rem;
+      margin: 0 0rem;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      text-align: left;
+      h1 {
+        padding: 1rem 0 2rem;
+        font-size: 2.5rem;
+        text-transform: capitalize;
+      }
+      h2 {
+        padding-bottom: 1.5rem;
+        padding-top: 1rem;
+        font-size: 1.7rem;
+        text-transform: capitalize;
+      }
+      h3 {
+        font-size: 1.4rem;
+        font-weight: 500;
+        font-style: italic;
+        text-transform: capitalize;
+        color: #2b4e9ee0;
+      }
+
+      p {
+        font-family: "Roboto", sans-serif;
+        line-height: 1.5rem;
+        padding-bottom: 1.5rem;
+      }
+
+      .grid-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+
+      .btn {
+        margin-top: 2rem;
+        background-color: #0146e7;
+        padding: 0.9rem 2.5rem;
+        text-transform: none;
+        font-family: "Inter", sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 30px;
+
+        span {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

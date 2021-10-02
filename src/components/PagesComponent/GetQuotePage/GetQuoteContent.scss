@@ -1,0 +1,138 @@
+.getquote-hero {
+  font-family: "Roboto", sans-serif;
+  color: #0f1d3d;
+
+  .heading {
+    padding: 5rem 5rem 3rem;
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .content {
+    background-color: #fff;
+    padding: 5rem 6rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin: 0 5rem;
+    text-align: left;
+    h1 {
+      padding: 5rem 0 2rem;
+      font-size: 2.5rem;
+      text-transform: capitalize;
+    }
+    h2 {
+      padding-bottom: 1.5rem;
+      font-size: 1.7rem;
+      text-transform: capitalize;
+    }
+    h3 {
+      font-size: 1.4rem;
+      font-weight: 500;
+      font-style: italic;
+      text-transform: capitalize;
+      color: #2b4e9ee0;
+    }
+
+    p {
+      font-family: "Roboto", sans-serif;
+      line-height: 1.5rem;
+      padding: 0 2rem 3rem 0;
+      text-align: justify;
+    }
+
+    .text-field {
+      width: 100%;
+      margin-bottom: 1rem;
+      border-radius: 28px;
+    }
+
+    .MuiOutlinedInput-root {
+      border-radius: 28px;
+    }
+
+    .MuiOutlinedInput-input {
+      border-radius: 28px;
+      padding-left: 1.3rem;
+    }
+
+    #select-label {
+      padding: 0;
+      margin: 0;
+      padding-left: 1.3rem;
+      transform: translate(0, 19px) scale(1);
+
+      &.MuiInputLabel-shrink {
+        transform: translate(0, -5px) scale(0.75);
+      }
+    }
+
+    .submit-btn {
+      float: right;
+      margin-top: 1rem;
+      background-color: #0146e7;
+      padding: 0.7rem 2.5rem;
+      text-transform: none;
+      font-family: "Inter", sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 30px;
+
+      span {
+        color: #ffffff;
+      }
+    }
+
+    .left {
+      .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        div {
+          margin-bottom: 1.4rem;
+        }
+
+        a {
+          color: #0f1d3d;
+          font-size: 1.2rem;
+          font-weight: 500;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            color: #0146e7;
+          }
+        }
+
+        .subtitle {
+          font-size: 1rem;
+          color: #0f1d3db0;
+          margin-bottom: 3rem;
+        }
+      }
+    }
+  }
+}
+ul {
+  &.MuiMenu-list {
+    height: 10rem !important;
+  }
+}
+
+@media all and (max-width: 968px) {
+  .getquote-hero {
+    .heading {
+      padding: 5rem 1rem 3rem;
+      // font-size: 2.5rem;
+    }
+    .content {
+      padding: 4rem 2rem;
+      margin: 0 0rem;
+
+      p {
+        padding: 0 0rem 3rem 0;
+      }
+    }
+  }
+}
