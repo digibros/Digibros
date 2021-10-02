@@ -44,7 +44,7 @@ export const Footer = () => {
                             <a target="_blank" href="https://www.linkedin.com/in/digi-bros-2a5686220/">
                                 <i className="fab fa-linkedin" />
                             </a>
-                            <a target="_blank" href="https://www.instagram.com/digibros2021/">
+                            <a target="_blank" href="https://www.instagram.com/digibros.in_/">
                                 <i className="fab fa-instagram" />
                             </a>
                         </div>
