@@ -5,14 +5,14 @@
   .heading {
     padding: 5rem 5rem 3rem;
     font-family: "Inter", sans-serif;
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
     text-align: center;
   }
   .content {
     background-color: #fff;
-    padding: 5rem 8rem;
+    padding: 1rem 8rem;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     margin: 0 5rem;
@@ -43,8 +43,15 @@
 
     .grid-container {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
+      width: 100%;
+      .img {
+        width: 35% !important;
+      }
+      .item-data {
+        width: 60%;
+      }
     }
 
     .btn {
@@ -70,23 +77,23 @@
     color: #0f1d3d;
 
     .heading {
-      padding: 5rem 5rem 3rem;
+      padding: 1rem;
       font-family: "Inter", sans-serif;
-      font-size: 3rem;
+      font-size: 2rem;
       font-weight: 700;
       margin-bottom: 1.5rem;
       text-align: center;
     }
     .content {
       background-color: #fff;
-      padding: 5rem 2rem;
+      padding: 1rem 2rem;
       margin: 0 0rem;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
       text-align: left;
       h1 {
         padding: 1rem 0 2rem;
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         text-transform: capitalize;
       }
       h2 {
@@ -114,9 +121,15 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
       }
-
+      .grid-container-even {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
       .btn {
         margin-top: 2rem;
         background-color: #0146e7;
