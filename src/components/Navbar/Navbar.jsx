@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Button } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/MenuRounded";
-import CloseIcon from "@material-ui/icons/Close";
 import logo from "../../assets/Logo/logo.png";
 import Dropdown from "react-multilevel-dropdown";
 import "./Navbar.scss";
@@ -34,7 +33,7 @@ export const Navbar = ({ variant }) => {
         ) : null}
         <div className="nav-logo">
           <Link to="/">
-            <img src={logo} className="logo" />
+            <img src={logo} className="logo" alt="" />
           </Link>
         </div>
         {/* <div className="nav-logo"><div className="logo" >DigiBros</div></div> */}

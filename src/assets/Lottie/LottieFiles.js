@@ -1,11 +1,9 @@
-import React from "react";
-
 import WebDesigning from "./webDesign.json";
 import WebsiteForStartup from "./websiteForStartups.json";
 import WebsiteForGrowingBusiness from "./websiteForGrowingBusiness.json";
 import WebsiteForRevamp from "./websiteForRevanmp.json";
 import Ecommerce from "./ecommerce.json";
-import SEO from "./seo.json";
+import SEO from "./Seo.json";
 import SEM from "./sem.json";
 import SMM from "./smm.json";
 import ContentMarketing from "./contentmarketing.json";

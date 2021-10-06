@@ -1,7 +1,6 @@
 import React from "react";
 import "./ServiceContent.scss";
 import { Button, Grid } from "@material-ui/core";
-import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 import Lottie from "react-lottie";
@@ -19,7 +18,6 @@ import {
   GraphicDesignLottie,
   PosterAndBrochureLottie,
 } from "../../../assets/Lottie/LottieFiles";
-import { SendOutlined } from "@material-ui/icons";
 
 export const ServiceContent = () => {
   return (

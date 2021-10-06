@@ -1,7 +1,7 @@
 import React from "react";
 import "./Services.scss";
 
-import { Button, Grid, Typography } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import { HashLink } from "react-router-hash-link";
 import Slider from "react-slick";
 export const Services = () => {

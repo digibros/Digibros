@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { Button, Grid, Typography } from "@material-ui/core";
+import { Button, Grid } from "@material-ui/core";
 import Lottie from "react-lottie";
 import laptopManAnimation from "../../../../assets/Lottie/laptopMan.json";
-import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import "./About.scss";
 export class About extends Component {
