@@ -24,11 +24,11 @@ import { SendOutlined } from "@material-ui/icons";
 export const ServiceContent = () => {
   return (
     <div className="services-hero">
+      <div className="heading">
+        <span className="headingTitle">Services</span>
+      </div>
       <div className="content">
-        <div className="heading">Services</div>
-        <h1 id="wd-01" style={{ paddingTop: "0rem" }}>
-          1. Web Designing
-        </h1>
+        <h1 id="wd-01">1. Web Designing</h1>
         <Grid container className="grid-container">
           <div className="grid-item item-data">
             <p>
@@ -53,7 +53,7 @@ export const ServiceContent = () => {
             />
           </div>
         </Grid>
-        <Grid container className="grid-container">
+        <Grid container className="grid-container-even ">
           <div className="grid-item img">
             <Lottie
               isClickToPauseDisabled={true}
@@ -101,7 +101,7 @@ export const ServiceContent = () => {
             />
           </div>
         </Grid>
-        <Grid container className="grid-container">
+        <Grid container className="grid-container-even ">
           <div className="grid-item img">
             <Lottie
               isClickToPauseDisabled={true}
@@ -133,9 +133,10 @@ export const ServiceContent = () => {
         </Grid>
         {/* ==================================================== */}
         <Grid container className="grid-container">
-          <h1 id="wd-02">2. E-Commerce</h1>
           <div className="grid-container">
             <div className="grid-item item-data">
+              <h1 id="wd-02">2. E-Commerce</h1>
+
               <p>
                 <strong>Ecommerce</strong> , also known as electronic commerce
                 or internet commerce, refers to the buying and selling of goods
@@ -155,10 +156,13 @@ export const ServiceContent = () => {
           </div>
         </Grid>
         {/* ==================================================== */}
-        <Grid container className="grid-container">
-          <h1 id="m-01">3. SEO</h1>
-          <div className="grid-container">
+        <Grid container>
+          <div className="grid-container-even ">
+            <div className="grid-item img">
+              <Lottie isClickToPauseDisabled={true} options={SEOLottie} />
+            </div>
             <div className="grid-item item-data">
+              <h1 id="m-01">3. SEO</h1>
               <p>
                 <h3>Be the first priority to your customer.</h3>
                 <br />
@@ -175,16 +179,14 @@ export const ServiceContent = () => {
                 it which makes our websites readily available for the user.
               </p>
             </div>
-            <div className="grid-item img">
-              <Lottie isClickToPauseDisabled={true} options={SEOLottie} />
-            </div>
           </div>
         </Grid>
         {/* ==================================================== */}
         <Grid container>
-          <h1 id="m-02">4. SEM</h1>
           <div className="grid-container">
             <div className="grid-item item-data">
+              <h1 id="m-02">4. SEM</h1>
+
               <p>
                 <h3>Be Everywhere</h3>
                 <br />
@@ -207,9 +209,13 @@ export const ServiceContent = () => {
         </Grid>
         {/* ==================================================== */}
         <Grid container>
-          <h1 id="m-03">5. SMM</h1>
-          <div className="grid-container">
+          <div className="grid-container-even ">
+            <div className="grid-item img">
+              <Lottie isClickToPauseDisabled={true} options={SMMLottie} />
+            </div>
             <div className="grid-item item-data">
+              <h1 id="m-03">5. SMM</h1>
+
               <p>
                 <h3>Engage and entertain.</h3>
                 <br />
@@ -224,17 +230,15 @@ export const ServiceContent = () => {
                 6,000 friends.”
               </p>
             </div>
-            <div className="grid-item img">
-              <Lottie isClickToPauseDisabled={true} options={SMMLottie} />
-            </div>
           </div>
         </Grid>
         {/* ==================================================== */}
         <Grid container>
-          <h3>Think before you ink</h3>
           <div className="grid-container">
             <div className="grid-item item-data">
               <h1 id="m-04">6. Content Marketing</h1>
+              <h3>Think before you ink</h3>
+
               <p>
                 <br />
                 Content marketing is a form of marketing focused on creating,
@@ -261,10 +265,17 @@ export const ServiceContent = () => {
           </div>
         </Grid>
         {/* ==================================================== */}
-        <Grid container className="grid-container">
-          <h1 id="m-05">7. Email Marketing</h1>
-          <div className="grid-container">
+        <Grid container>
+          <div className="grid-container-even ">
+            <div className="grid-item img">
+              <Lottie
+                isClickToPauseDisabled={true}
+                options={EmailMarketingLottie}
+              />
+            </div>
             <div className="grid-item item-data">
+              <h1 id="m-05">7. Email Marketing</h1>
+
               <p>
                 <h3>Old is Gold.</h3>
                 <br />
@@ -276,19 +287,13 @@ export const ServiceContent = () => {
                 offers, coupons, discounts.
               </p>
             </div>
-            <div className="grid-item img">
-              <Lottie
-                isClickToPauseDisabled={true}
-                options={EmailMarketingLottie}
-              />
-            </div>
           </div>
         </Grid>
         {/* ==================================================== */}
         <Grid container>
-          <h1 id="c-01">8. Graphic designing</h1>
           <div className="grid-container">
             <div className="grid-item item-data">
+              <h1 id="c-01">8. Graphic designing</h1>
               <p>
                 <h3>Designs that you can’t ignore</h3>
                 <br />
@@ -317,9 +322,15 @@ export const ServiceContent = () => {
         </Grid>
         {/* ==================================================== */}
         <Grid container>
-          <h1 id="c-02">9. Poster & Brochures</h1>
-          <div className="grid-container">
+          <div className="grid-container-even ">
+            <div className="grid-item img">
+              <Lottie
+                isClickToPauseDisabled={true}
+                options={PosterAndBrochureLottie}
+              />
+            </div>
             <div className="grid-item item-data">
+              <h1 id="c-02">9. Poster & Brochures</h1>
               <p>
                 Our team from Digibros is expert in designing brand logos,
                 featured images, etc according to your business theme.
@@ -334,12 +345,6 @@ export const ServiceContent = () => {
                 logo designs required by the client according to their
                 customization.
               </p>
-            </div>
-            <div className="grid-item img">
-              <Lottie
-                isClickToPauseDisabled={true}
-                options={PosterAndBrochureLottie}
-              />
             </div>
           </div>
         </Grid>

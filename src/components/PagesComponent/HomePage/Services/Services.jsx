@@ -21,7 +21,7 @@ export const Services = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           arrows: false,
-          centerMode: true,
+          // centerMode: true,
         },
       },
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
@@ -36,7 +36,7 @@ export const Services = () => {
           team of experts
         </div>
       </div>
-      <Slider {...settings}>
+      <Slider {...settings} className="mobScreenSlider">
         <div className="cards-grid">
           <div className="card-item">
             <div className="card">
@@ -155,7 +155,7 @@ export const Services = () => {
           </div>
         </div>
       </Slider>
-      {/* <Grid container className="cards-grid">
+      <Grid container className="cards-grid mdScreenSlider">
         <Grid item md={4} sm={12} xs={5} className="card-item">
           <div className="card">
             <div className="icon">
@@ -255,7 +255,7 @@ export const Services = () => {
             </HashLink>
           </div>
         </Grid>
-      </Grid> */}
+      </Grid>
     </div>
   );
 };

@@ -1,14 +1,14 @@
-import React from 'react'
-import './pages.scss'
+import React from "react";
+import "./pages.scss";
 
-import { Navbar, AboutContent, Footer } from '../components';
+import { Navbar, AboutContent, Footer } from "../components";
 
 export const AboutPage = () => {
-    return (
-        <>
-            <Navbar variant="dark" />
-            <AboutContent />
-            <Footer />
-        </>
-    )
-}
+  return (
+    <>
+      <Navbar variant="dark" />
+      <AboutContent />
+      <Footer />
+    </>
+  );
+};

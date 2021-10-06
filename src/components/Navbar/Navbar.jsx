@@ -40,7 +40,9 @@ export const Navbar = ({ variant }) => {
         {/* <div className="nav-logo"><div className="logo" >DigiBros</div></div> */}
         <ul className={`nav-links ${navBarToggle ? "active" : ""} ${variant}`}>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" className="nav-item">
+              Home
+            </Link>
           </li>
           <li>
             <Dropdown
@@ -186,10 +188,12 @@ export const Navbar = ({ variant }) => {
           </li>
 
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about" className="nav-item">
+              About
+            </Link>
           </li>
           <li>
-            <HashLink smooth to="/#contact">
+            <HashLink smooth to="/#contact" className="nav-item">
               Contact
             </HashLink>
           </li>

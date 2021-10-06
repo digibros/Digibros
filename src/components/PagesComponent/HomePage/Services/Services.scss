@@ -23,7 +23,7 @@
   }
 
   .cards-grid {
-    margin: 3rem 0;
+    margin: 3rem 0 0px;
     .card-item {
       padding: 2rem;
       .card {
@@ -86,8 +86,19 @@
     }
   }
 }
-
+.mdScreenSlider {
+  display: block;
+}
+.mobScreenSlider {
+  display: none;
+}
 @media all and (max-width: 500px) {
+  .mdScreenSlider {
+    display: none !important;
+  }
+  .mobScreenSlider {
+    display: block;
+  }
   .services {
     // margin-top: 1rem;
     padding: 1rem 2rem;
