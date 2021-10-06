@@ -322,7 +322,7 @@ export const ServiceContent = () => {
         </Grid>
         {/* ==================================================== */}
         <Grid container>
-          <div className="grid-container-even ">
+          <div className="grid-container-even">
             <div className="grid-item img">
               <Lottie
                 isClickToPauseDisabled={true}
