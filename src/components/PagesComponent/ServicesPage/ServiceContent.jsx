@@ -11,14 +11,15 @@ import {
   WebsiteForRevampLottie,
   EcommerceLottie,
   SEOLottie,
+} from "../../../assets/Lottie/LottieFiles";
+import {
   SEMLottie,
   SMMLottie,
   ContentMarketingLottie,
   EmailMarketingLottie,
   GraphicDesignLottie,
   PosterAndBrochureLottie,
-} from "../../../assets/Lottie/LottieFiles";
-
+} from "../../../assets/Lottie/LottieFiles1";
 export const ServiceContent = () => {
   return (
     <div className="services-hero">

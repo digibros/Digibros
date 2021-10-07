@@ -1,6 +1,6 @@
 {
   "name": "digibros",
-  "homepage": "http://Prakash1308.github.io/DIGIBROS",
+  "homepage": "",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,6 +26,7 @@
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.1",
+    "source-map-explorer": "^2.5.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -34,6 +35,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
