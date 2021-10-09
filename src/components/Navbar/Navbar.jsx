@@ -63,7 +63,7 @@ export const Navbar = ({ variant }) => {
               <Dropdown.Item className="dropdown-items">
                 Web Development
                 <Dropdown.Submenu
-                  position={window.innerWidth <= 968 ? "right" : "left"}
+                  position={"right"}
                   className="dropdown-submenu"
                 >
                   <HashLink
@@ -93,7 +93,7 @@ export const Navbar = ({ variant }) => {
               <Dropdown.Item className="dropdown-items">
                 Marketing
                 <Dropdown.Submenu
-                  position={window.innerWidth <= 968 ? "right" : "left"}
+                  position={"right"}
                   className="dropdown-submenu"
                 >
                   <HashLink
@@ -156,7 +156,7 @@ export const Navbar = ({ variant }) => {
               <Dropdown.Item className="dropdown-items">
                 Creative
                 <Dropdown.Submenu
-                  position={window.innerWidth <= 968 ? "right" : "left"}
+                  position={"right"}
                   className="dropdown-submenu"
                 >
                   <HashLink

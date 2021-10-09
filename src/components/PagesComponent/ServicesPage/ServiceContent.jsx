@@ -32,6 +32,12 @@ export const ServiceContent = () => {
           <div className="grid-item item-data">
             <p>
               <h3>Create a brand, not just a website</h3>
+              <div className="grid-item imgsmall">
+                <Lottie
+                  isClickToPauseDisabled={true}
+                  options={WebDesigningLottie}
+                />
+              </div>
               <br />
               <strong>
                 Web designing is like a painting except the painting never
@@ -61,6 +67,12 @@ export const ServiceContent = () => {
           </div>
           <div className="grid-item item-data">
             <h2>Website for startup</h2>
+            <div className="grid-item imgsmall">
+              <Lottie
+                isClickToPauseDisabled={true}
+                options={WebsiteForStartupLottie}
+              />
+            </div>
             <p>
               For a startup to thrive or attract customers you need a great
               online presence and this can be done at our Digibros, kick start
@@ -79,6 +91,12 @@ export const ServiceContent = () => {
         <Grid container className="grid-container">
           <div className="grid-item item-data">
             <h2>Website for growing business</h2>
+            <div className="grid-item imgsmall">
+              <Lottie
+                isClickToPauseDisabled={true}
+                options={WebsiteForGrowingBusinessLottie}
+              />
+            </div>
             <p>
               Boost your website to the maximum with the help of our dedicated
               team of digital analytics experts that will help you attract and
@@ -109,6 +127,12 @@ export const ServiceContent = () => {
           </div>
           <div className="grid-item item-data">
             <h2>Website for Revamp</h2>
+            <div className="grid-item imgsmall">
+              <Lottie
+                isClickToPauseDisabled={true}
+                options={WebsiteForRevampLottie}
+              />
+            </div>
             <p>
               In this world of fast internet your websites shows about your
               brand and identity and an outdated website which does not give any
@@ -135,7 +159,12 @@ export const ServiceContent = () => {
           <div className="grid-container">
             <div className="grid-item item-data">
               <h1 id="wd-02">2. E-Commerce</h1>
-
+              <div className="grid-item imgsmall">
+                <Lottie
+                  isClickToPauseDisabled={true}
+                  options={EcommerceLottie}
+                />
+              </div>
               <p>
                 <strong>Ecommerce</strong> , also known as electronic commerce
                 or internet commerce, refers to the buying and selling of goods
@@ -162,6 +191,9 @@ export const ServiceContent = () => {
             </div>
             <div className="grid-item item-data">
               <h1 id="m-01">3. SEO</h1>
+              <div className="grid-item imgsmall">
+                <Lottie isClickToPauseDisabled={true} options={SEOLottie} />
+              </div>
               <p>
                 <h3>Be the first priority to your customer.</h3>
                 <br />
@@ -185,7 +217,13 @@ export const ServiceContent = () => {
           <div className="grid-container">
             <div className="grid-item item-data">
               <h1 id="m-02">4. SEM</h1>
-
+              <div className="grid-item imgsmall">
+                <Lottie
+                  isClickToPauseDisabled={true}
+                  options={SEMLottie}
+                  width="90%"
+                />
+              </div>
               <p>
                 <h3>Be Everywhere</h3>
                 <br />
@@ -214,7 +252,9 @@ export const ServiceContent = () => {
             </div>
             <div className="grid-item item-data">
               <h1 id="m-03">5. SMM</h1>
-
+              <div className="grid-item imgsmall">
+                <Lottie isClickToPauseDisabled={true} options={SMMLottie} />
+              </div>
               <p>
                 <h3>Engage and entertain.</h3>
                 <br />
@@ -237,7 +277,12 @@ export const ServiceContent = () => {
             <div className="grid-item item-data">
               <h1 id="m-04">6. Content Marketing</h1>
               <h3>Think before you ink</h3>
-
+              <div className="grid-item imgsmall">
+                <Lottie
+                  isClickToPauseDisabled={true}
+                  options={ContentMarketingLottie}
+                />
+              </div>
               <p>
                 <br />
                 Content marketing is a form of marketing focused on creating,
@@ -274,7 +319,12 @@ export const ServiceContent = () => {
             </div>
             <div className="grid-item item-data">
               <h1 id="m-05">7. Email Marketing</h1>
-
+              <div className="grid-item imgsmall">
+                <Lottie
+                  isClickToPauseDisabled={true}
+                  options={EmailMarketingLottie}
+                />
+              </div>
               <p>
                 <h3>Old is Gold.</h3>
                 <br />
@@ -293,6 +343,12 @@ export const ServiceContent = () => {
           <div className="grid-container">
             <div className="grid-item item-data">
               <h1 id="c-01">8. Graphic designing</h1>
+              <div className="grid-item imgsmall">
+                <Lottie
+                  isClickToPauseDisabled={true}
+                  options={GraphicDesignLottie}
+                />
+              </div>
               <p>
                 <h3>Designs that you can’t ignore</h3>
                 <br />
@@ -330,6 +386,12 @@ export const ServiceContent = () => {
             </div>
             <div className="grid-item item-data">
               <h1 id="c-02">9. Poster & Brochures</h1>
+              <div className="grid-item imgsmall">
+                <Lottie
+                  isClickToPauseDisabled={true}
+                  options={PosterAndBrochureLottie}
+                />
+              </div>
               <p>
                 Our team from Digibros is expert in designing brand logos,
                 featured images, etc according to your business theme.
